@@ -13,6 +13,7 @@
 		BC91F34727BC05F400A769F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC91F34527BC05F400A769F5 /* Main.storyboard */; };
 		BC91F34927BC05F500A769F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC91F34827BC05F500A769F5 /* Assets.xcassets */; };
 		BC91F34C27BC05F500A769F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC91F34A27BC05F500A769F5 /* LaunchScreen.storyboard */; };
+		BC91F35627BC0ED000A769F5 /* Inceptionv3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = BC91F35527BC0ED000A769F5 /* Inceptionv3.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BC91F34827BC05F500A769F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC91F34B27BC05F500A769F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC91F34D27BC05F500A769F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC91F35527BC0ED000A769F5 /* Inceptionv3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Inceptionv3.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BC91F34827BC05F500A769F5 /* Assets.xcassets */,
 				BC91F34A27BC05F500A769F5 /* LaunchScreen.storyboard */,
 				BC91F34D27BC05F500A769F5 /* Info.plist */,
+				BC91F35527BC0ED000A769F5 /* Inceptionv3.mlpackage */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC91F35627BC0ED000A769F5 /* Inceptionv3.mlpackage in Sources */,
 				BC91F34427BC05F400A769F5 /* ViewController.swift in Sources */,
 				BC91F34027BC05F400A769F5 /* AppDelegate.swift in Sources */,
 				BC91F34227BC05F400A769F5 /* SceneDelegate.swift in Sources */,
@@ -217,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
